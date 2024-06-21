@@ -1,0 +1,58 @@
+/* styles.css */
+
+.review {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.comment {
+    margin-top: 5px;
+}
+
+.highlight {
+    padding: 2px;
+}
+
+.reviewer-name strong {
+    font-weight: bold;
+}
+
+.rating strong{
+    color: rgb(255, 140, 0);
+}
+
+.review-icon {
+    width: 25px;  
+    height: 25px;  
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.rating {
+    margin-top: 5px;
+    color: rgb(248, 189, 14);
+}
+
+
+/* Sentiment Colours */
+
+.positive {
+    background-color: #D9F2DD;
+}
+
+.negative {
+    background-color: #F2DBD9;
+}
+
+.Mixed {
+    background-color: #e8bd6d3d;
+}
+
+.Neutral {
+    background-color: #eaf09b6b;
+}
